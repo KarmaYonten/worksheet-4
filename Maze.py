@@ -65,9 +65,9 @@ if __name__ == "__main__":
             
         else:	
 <<<<<<< HEAD
-             cell = grid[currentRow][currentCol]
+             cell = grid[Row][Col]
              if cell == EMPTY:
-                grid[currentRow][currentCol] = VISITED
+                grid[Row][Col] = VISITED
 
         elif cell == WALL:
             done = True
