@@ -79,22 +79,7 @@ if __name__ == "__main__":
 	     print("SOLVED!")
   
          else:
-=======
-            if grid[Row][Col] == EMPTY:
-                grid[Row][Col] = VISITED
-                
-            elif grid[Row][Col] == WALL:
-                done = True
-                print("You stumble blindly into a solid concrete wall") # Hit wall.
-
-            elif grid[Row][Col] == END:
-                done = True
-                solved = True
-                print("SOLVED!") # Solved.
-                
-            else:
->>>>>>> rename_vars
-                pass # Do nothing
+                #Do nothing
         
         charIndex += 1
     # end-while
